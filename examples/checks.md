@@ -1,0 +1,4 @@
+- **Before:** The empty-list test failed because it could not find an accessible button named Create recipe.
+- **After:** The same test passed. The populated-list test still found the saved recipe and no empty-state button.
+- **Preview walkthrough:** With an empty test account, I tabbed to Create recipe and pressed Enter. Focus moved to the recipe name field. After I saved a recipe, the list showed the new card.
+- **Remaining check:** Repeat the walkthrough on a phone-sized touch screen.
